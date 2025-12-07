@@ -112,9 +112,9 @@
 	(net 32 "Column 0")
 	(net 33 "Column 1")
 	(net 34 "Net-(SW1-A)")
-	(net 35 "unconnected-(U1-21-Pad20)")
+	(net 35 "Net-(D22-A)")
 	(net 36 "unconnected-(U1-7-Pad27)")
-	(net 37 "unconnected-(U1-20-Pad19)")
+	(net 37 "unconnected-(S19-Pad1)")
 	(net 38 "unconnected-(U1-1-Pad25)")
 	(net 39 "unconnected-(U1-18-Pad17)")
 	(net 40 "unconnected-(U1-2-Pad5)")
@@ -127,13 +127,17 @@
 	(net 47 "unconnected-(U1-19-Pad18)")
 	(net 48 "unconnected-(U1-2-Pad26)")
 	(net 49 "SplitData")
+	(net 50 "unconnected-(S20-Pad1)")
+	(net 51 "unconnected-(S21-Pad1)")
+	(net 52 "EncoderA")
+	(net 53 "EncoderB")
 	(footprint "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "006f8812-3f42-4c14-b141-b37bf5372b95")
 		(at 126.9 89.25)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S17"
+		(property "Reference" "S13"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "25742ce9-a7e1-4264-9407-4a8d585fdbc7")
@@ -1304,7 +1308,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 22 "Net-(D17-A)")
+			(net 17 "Net-(D13-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "642bc887-d849-4d89-9801-fdeb0ee20ba1")
@@ -1328,7 +1332,7 @@
 		(at 126.9 55.25)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S5"
+		(property "Reference" "S1"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "1e8012dd-3199-4e14-9abf-94ac4f84497e")
@@ -2499,7 +2503,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 8 "Net-(D5-A)")
+			(net 3 "Net-(D1-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "880f2ed6-f2ab-47a9-b847-482641bc9850")
@@ -2523,7 +2527,7 @@
 		(at 72.9 58.65)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S2"
+		(property "Reference" "S3"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "b70ed6a4-e609-4920-8410-1dae52b977a2")
@@ -3694,7 +3698,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 5 "Net-(D2-A)")
+			(net 6 "Net-(D3-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "a1bca5bd-9b0a-4ed1-aaa5-74a806cd56e2")
@@ -3718,7 +3722,7 @@
 		(at 72.9 75.65)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S8"
+		(property "Reference" "S9"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "f6cb0331-08af-4dd3-9ebe-838e817658b7")
@@ -4889,7 +4893,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 12 "Net-(D8-A)")
+			(net 13 "Net-(D9-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "be3b135c-077f-4d60-8a5d-cd7275198eec")
@@ -4913,7 +4917,7 @@
 		(at 126.9 72.25)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S11"
+		(property "Reference" "S7"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "fda3e0f6-2f2a-4858-ab64-93e5798117d7")
@@ -6084,7 +6088,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 15 "Net-(D11-A)")
+			(net 11 "Net-(D7-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "0bb62cea-15d6-40e7-bd38-42f71a27b98a")
@@ -6108,7 +6112,7 @@
 		(at 108.9 87.55)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S16"
+		(property "Reference" "S18"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "ee60903b-0389-4f57-a00c-69442e62cfd9")
@@ -7279,7 +7283,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 21 "Net-(D16-A)")
+			(net 23 "Net-(D18-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "bc15eb12-7512-4927-9c44-c96b4d8a25e4")
@@ -7303,7 +7307,7 @@
 		(at 72.9 92.65)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S14"
+		(property "Reference" "S15"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "28d6ef40-d0f4-4e1a-96c2-ba6e9f19e37b")
@@ -8474,7 +8478,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 19 "Net-(D14-A)")
+			(net 20 "Net-(D15-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "4d0afb62-dc3f-48df-a1a6-97faa18ad847")
@@ -8498,7 +8502,7 @@
 		(at 144.9 73.95)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S12"
+		(property "Reference" "S8"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "f730f488-5c31-4503-9541-b7c4cc0ea14e")
@@ -9669,7 +9673,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 16 "Net-(D12-A)")
+			(net 12 "Net-(D8-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "59a3240b-4413-4d9f-aa2a-bf05b116019c")
@@ -9693,7 +9697,7 @@
 		(at 90.9 55.25)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S3"
+		(property "Reference" "S5"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "b2269b6d-e1ed-40a9-97d5-940f9ca792af")
@@ -10864,7 +10868,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 6 "Net-(D3-A)")
+			(net 8 "Net-(D5-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "a99fc657-aad8-4e2c-9904-53881bfced9d")
@@ -10888,7 +10892,7 @@
 		(at 144.9 56.95)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S6"
+		(property "Reference" "S2"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "d75978fc-7241-4a47-9527-ec525b5ea379")
@@ -12059,7 +12063,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 9 "Net-(D6-A)")
+			(net 5 "Net-(D2-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "47fe680b-6e1b-40f2-8700-77ba69d43c06")
@@ -12077,13 +12081,290 @@
 			)
 		)
 	)
+	(footprint "ScottoKeebs_Scotto:Encoder_EC11_MX"
+		(layer "F.Cu")
+		(uuid "449ff8b5-3668-4722-8159-b5882c76ffb2")
+		(at 165 92)
+		(descr "MX keyswitch PCB Mount Keycap 1.00u")
+		(tags "MX Keyboard Keyswitch Switch PCB Cutout Keycap 1.00u")
+		(property "Reference" "SW2"
+			(at 0 -8 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5393bb3b-140c-4ae4-9e7a-fe941db906ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 0 8 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1772a69a-0e12-48a8-994b-b4fdd34522a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d2de5fc-1fd9-4542-92fd-80a426d13515")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90779d95-1728-4ed7-8eb3-7c836a17a561")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "RotaryEncoder*Switch*")
+		(path "/2319172c-dd41-4f0e-9eab-abb4f8c75a71")
+		(sheetname "/")
+		(sheetfile "corne-pcb_left.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -9.525 -9.525)
+			(end -9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "fcaa1c42-b96e-4903-a783-f39d6a0c7972")
+		)
+		(fp_line
+			(start -9.525 9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9ae47205-07c7-4ce5-a39e-1f3f548cb2c9")
+		)
+		(fp_line
+			(start 9.525 -9.525)
+			(end -9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "47c88a11-c7be-45ab-879e-d4cd6c9bfce4")
+		)
+		(fp_line
+			(start 9.525 9.525)
+			(end 9.525 -9.525)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "e0a943b0-2199-4e4f-956d-a71d50f47862")
+		)
+		(fp_line
+			(start -6 -4.7)
+			(end -5 -5.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0bb6ddbc-8afd-438a-9392-482c8205efce")
+		)
+		(fp_line
+			(start -6 5.8)
+			(end -6 -4.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e5a9a0d3-127b-4942-87d8-eb8125867aff")
+		)
+		(fp_line
+			(start -5 -5.8)
+			(end 6 -5.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eb88bb03-7b32-4d57-ae37-eaa9dd3bc58b")
+		)
+		(fp_line
+			(start -3 0)
+			(end 3 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e858d06c-daac-40df-88f5-ddf12073515b")
+		)
+		(fp_line
+			(start 0 -3)
+			(end 0 3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "93881bd3-52be-4f52-a7fc-93aedc1fba2e")
+		)
+		(fp_line
+			(start 6 -5.8)
+			(end 6 5.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "32910c23-f82f-4e32-a871-24f8ac4119a2")
+		)
+		(fp_line
+			(start 6 5.8)
+			(end -6 5.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6f963f9f-27b9-4682-b6c8-b15958f989a2")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "af9bc717-0782-4fe7-8fa7-05667ae76bb3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.6 3.8 0)
+			(layer "F.Fab")
+			(uuid "b03278c6-dacf-4484-b620-bb023d1dc422")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "A" thru_hole rect
+			(at -7.5 -2.5)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 52 "EncoderA")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "1a0f7784-c9ab-4738-b324-40aaba259b74")
+		)
+		(pad "B" thru_hole circle
+			(at -7.5 2.5)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 53 "EncoderB")
+			(pinfunction "B")
+			(pintype "passive")
+			(uuid "6422002a-cbcf-4fa6-9e48-d993dffe0226")
+		)
+		(pad "C" thru_hole circle
+			(at -7.5 0)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "C")
+			(pintype "passive")
+			(uuid "c678f127-f4b8-494d-b842-c6de64577a55")
+		)
+		(pad "MP" thru_hole rect
+			(at 0 -5.6)
+			(size 3.2 2)
+			(drill oval 2.8 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "4fd80858-e684-4478-8cee-b6dd666da2ba")
+		)
+		(pad "MP" thru_hole rect
+			(at 0 5.6)
+			(size 3.2 2)
+			(drill oval 2.8 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b620194b-4540-4c6e-bd52-0ede58adc822")
+		)
+		(pad "S1" thru_hole circle
+			(at 7 2.5)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 35 "Net-(D22-A)")
+			(pinfunction "S1")
+			(pintype "passive")
+			(uuid "5788e694-09a4-4b8c-b7d2-236c9c3e2f09")
+		)
+		(pad "S2" thru_hole circle
+			(at 7 -2.5)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "Row 2")
+			(pinfunction "S2")
+			(pintype "passive")
+			(uuid "35f4d8dd-05ea-4b64-8548-a2b8102be900")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Scotto.3dshapes/EC11.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 90)
+			)
+		)
+	)
 	(footprint "ScottoKeebs_Hotswap:Hotswap_Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "5093d9c8-20c2-4fd6-b3c4-003a1c787306")
 		(at 90.9 89.25)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S15"
+		(property "Reference" "S17"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "e33fb999-f1e9-4b39-a768-b48a7b77e50a")
@@ -13254,7 +13535,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 20 "Net-(D15-A)")
+			(net 22 "Net-(D17-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "30f2def4-7eb7-4485-9538-030ef2f38b10")
@@ -14439,7 +14720,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 28 "Column 3")
+			(net 37 "unconnected-(S19-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "2bc6bd1d-48d4-4326-884f-4c239e372a32")
@@ -15634,7 +15915,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 31 "Column 5")
+			(net 51 "unconnected-(S21-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "586dc85f-c7e9-4918-a67d-c515f5dded62")
@@ -15668,7 +15949,7 @@
 		(at 54.9 58.65)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S1"
+		(property "Reference" "S4"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "d549837b-1703-4f79-ab57-f148e15b41c9")
@@ -16839,7 +17120,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 3 "Net-(D1-A)")
+			(net 7 "Net-(D4-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "5032fcb5-f6b0-401b-a590-2f2b0b588f0f")
@@ -16863,7 +17144,7 @@
 		(at 90.9 72.25)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S9"
+		(property "Reference" "S11"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "77b58bcd-bc49-43f5-9fe5-19e24cef8c7c")
@@ -18034,7 +18315,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 13 "Net-(D9-A)")
+			(net 15 "Net-(D11-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "63dc94a2-b7e9-478c-8769-b7eb804ba26f")
@@ -18058,7 +18339,7 @@
 		(at 108.9 53.55)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S4"
+		(property "Reference" "S6"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "1e5ff3d5-4364-4538-bd51-74d76f6b5aa4")
@@ -19229,7 +19510,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 7 "Net-(D4-A)")
+			(net 9 "Net-(D6-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "37e67981-1db5-4ed4-84cf-269c7599f2b1")
@@ -19253,7 +19534,7 @@
 		(at 54.9 92.65)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S13"
+		(property "Reference" "S16"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "7a651354-1e88-4ae0-b227-6c62e7aec8b1")
@@ -20424,7 +20705,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 17 "Net-(D13-A)")
+			(net 21 "Net-(D16-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "b86eeb9e-a597-4834-811d-59d83602002d")
@@ -20448,7 +20729,7 @@
 		(at 54.9 75.65)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S7"
+		(property "Reference" "S10"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "c984d994-a215-4eb4-8395-d97c1387140d")
@@ -21619,7 +21900,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 11 "Net-(D7-A)")
+			(net 14 "Net-(D10-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "c0d2c9b0-bad3-4ffe-a130-ad4aac4cfb53")
@@ -21643,7 +21924,7 @@
 		(at 144.9 90.95)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S18"
+		(property "Reference" "S14"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "474ab519-aef3-4586-9027-4fca2314fc27")
@@ -22814,7 +23095,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 23 "Net-(D18-A)")
+			(net 19 "Net-(D14-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "222665fb-a546-4d15-b5a7-9c96db2a3d23")
@@ -23089,7 +23370,7 @@
 			(uuid "d43c2994-a418-4f2b-b36d-d3f9fee49803")
 		)
 		(fp_line
-			(start 2.545999 -7.282)
+			(start 2.545998 -7.282)
 			(end 2.633 -6.844)
 			(stroke
 				(width 0.12)
@@ -23100,7 +23381,7 @@
 		)
 		(fp_line
 			(start 2.546 -7.504)
-			(end 2.545999 -7.282)
+			(end 2.545998 -7.282)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -23310,7 +23591,7 @@
 		)
 		(fp_line
 			(start -2.451999 -7.523)
-			(end -1.522999 -8.452)
+			(end -1.522998 -8.452)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -23319,7 +23600,7 @@
 			(uuid "df32341c-a999-4a76-8f70-754f6818c2ac")
 		)
 		(fp_line
-			(start -1.522999 -8.452)
+			(start -1.522998 -8.452)
 			(end 1.278 -8.452)
 			(stroke
 				(width 0.05)
@@ -23999,7 +24280,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 30 "Column 4")
+			(net 50 "unconnected-(S20-Pad1)")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "b229e085-e715-44d1-9742-bd5d461d968e")
@@ -24033,7 +24314,7 @@
 		(at 108.9 70.55)
 		(descr "Choc keyswitch V1 CPG1350 V1 Hotswap Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Hotswap Cutout Keycap 1.00u")
-		(property "Reference" "S10"
+		(property "Reference" "S12"
 			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "e80472da-80d8-47f3-aa00-e12cae1c679b")
@@ -25204,7 +25485,7 @@
 			(size 2.55 2.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
-			(net 14 "Net-(D10-A)")
+			(net 16 "Net-(D12-A)")
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "38539930-8c7b-44de-b826-ec6dabaadece")
@@ -25346,7 +25627,7 @@
 		)
 		(fp_line
 			(start -0.35 0)
-			(end -0.35 0.550001)
+			(end -0.35 0.550002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -25476,7 +25757,7 @@
 		)
 		(fp_line
 			(start -0.35 0)
-			(end -0.35 0.550001)
+			(end -0.35 0.550002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -26090,7 +26371,7 @@
 	(footprint "ScottoKeebs_Components:TRRS_PJ-320A"
 		(layer "B.Cu")
 		(uuid "3f3f6555-ad47-4894-a9a5-1d4a77129447")
-		(at 170.7125 86.7 90)
+		(at 201.1125 81.5 90)
 		(property "Reference" "U2"
 			(at 0 -14.2 90)
 			(layer "Dwgs.User")
@@ -26336,7 +26617,7 @@
 	(footprint "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 		(layer "B.Cu")
 		(uuid "40833c5c-a072-4784-a637-5d6421d9e925")
-		(at 167.6 94.6475 180)
+		(at 199 90.7975 180)
 		(descr "CuK miniature slide switch, OS series, SPDT, https://www.ckswitches.com/media/1428/os.pdf")
 		(tags "switch SPDT")
 		(property "Reference" "SW1"
@@ -26742,7 +27023,7 @@
 		(at 59.98 62.05 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -27075,7 +27356,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 3 "Net-(D1-A)")
+			(net 7 "Net-(D4-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "cceb7e61-0e9c-4b9a-b620-7db8aa591997")
@@ -27099,7 +27380,7 @@
 		(at 59.98 96.05 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D13"
+		(property "Reference" "D16"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -27432,7 +27713,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 17 "Net-(D13-A)")
+			(net 21 "Net-(D16-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e17cf597-e6bd-4021-9e0b-de904432b230")
@@ -27456,7 +27737,7 @@
 		(at 77.98 79.05 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -27789,7 +28070,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 12 "Net-(D8-A)")
+			(net 13 "Net-(D9-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7a479869-a889-47e6-a29f-ab522764bc96")
@@ -27813,7 +28094,7 @@
 		(at 113.98 56.95 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -28146,7 +28427,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 7 "Net-(D4-A)")
+			(net 9 "Net-(D6-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b2938a4a-608c-42d1-8de9-429655c816bc")
@@ -28170,7 +28451,7 @@
 		(at 131.98 92.65 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D17"
+		(property "Reference" "D13"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -28503,7 +28784,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 22 "Net-(D17-A)")
+			(net 17 "Net-(D13-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3f49abc0-acbd-442d-a488-0649e8907786")
@@ -28884,7 +29165,7 @@
 		(at 149.98 94.35 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D18"
+		(property "Reference" "D14"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -29217,7 +29498,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 23 "Net-(D18-A)")
+			(net 19 "Net-(D14-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8096d9b8-5e5a-4a27-a3af-f1afe5a7db1f")
@@ -29241,7 +29522,7 @@
 		(at 77.98 96.05 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D14"
+		(property "Reference" "D15"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -29574,7 +29855,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 19 "Net-(D14-A)")
+			(net 20 "Net-(D15-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a4e19f13-bb6f-44ce-a374-34523b812718")
@@ -29598,7 +29879,7 @@
 		(at 131.98 58.65 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -29931,7 +30212,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 8 "Net-(D5-A)")
+			(net 3 "Net-(D1-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f21e07ee-0d6b-422c-9a9f-8fed58b75396")
@@ -30312,7 +30593,7 @@
 		(at 113.98 90.95 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D16"
+		(property "Reference" "D18"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -30645,7 +30926,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 21 "Net-(D16-A)")
+			(net 23 "Net-(D18-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c91b265e-cf8f-4d39-82fd-8dd3ab49ae18")
@@ -30669,7 +30950,7 @@
 		(at 149.98 60.35 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -31002,7 +31283,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 9 "Net-(D6-A)")
+			(net 5 "Net-(D2-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ba1efce3-9039-4ef1-a4df-149bd4fd9353")
@@ -31026,7 +31307,7 @@
 		(at 95.98 75.65 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D9"
+		(property "Reference" "D11"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -31359,7 +31640,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 13 "Net-(D9-A)")
+			(net 15 "Net-(D11-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "368c95db-38b3-4aac-a4cd-f8b46c31be25")
@@ -31383,7 +31664,7 @@
 		(at 113.98 73.95 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D10"
+		(property "Reference" "D12"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -31716,7 +31997,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 14 "Net-(D10-A)")
+			(net 16 "Net-(D12-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7563d23b-b3f0-48c4-8215-7145b7bad1b4")
@@ -31740,7 +32021,7 @@
 		(at 95.98 92.65 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D15"
+		(property "Reference" "D17"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -32073,7 +32354,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 20 "Net-(D15-A)")
+			(net 22 "Net-(D17-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "de9292e3-749c-44e4-ae50-1784a6a36759")
@@ -32097,7 +32378,7 @@
 		(at 95.98 58.65 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -32430,7 +32711,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 6 "Net-(D3-A)")
+			(net 8 "Net-(D5-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "039f28ca-84a9-497c-97c6-734a4a0cde31")
@@ -33587,7 +33868,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "unconnected-(U1-20-Pad19)")
+			(net 53 "EncoderB")
 			(pinfunction "20")
 			(pintype "input")
 			(uuid "70fdcbd7-bb3d-464d-afc8-e23598543574")
@@ -33598,7 +33879,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "unconnected-(U1-21-Pad20)")
+			(net 52 "EncoderA")
 			(pinfunction "21")
 			(pintype "input")
 			(uuid "909ed9aa-450b-4733-9a15-1f3294cb726c")
@@ -33695,11 +33976,368 @@
 	)
 	(footprint "ScottoKeebs_Components:Diode_SOD-123"
 		(layer "B.Cu")
+		(uuid "cc7f18c1-f305-4e30-81df-4e03231e811c")
+		(at 172.5 99 90)
+		(descr "SOD-123")
+		(tags "SOD-123")
+		(property "Reference" "D22"
+			(at 0 2 90)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3a49dc3a-8e19-49f5-925d-bac7b426fe10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Diode"
+			(at 0 -2.1 90)
+			(layer "B.Fab")
+			(uuid "4b8cbb91-fd5c-4134-b17f-09f9fe2f1078")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0cbb26e7-118f-45d9-9b7b-71d00e8582e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6ebe91df-b085-4f85-a2f7-7ee8d4b41858")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5998b9e2-5a90-40df-ab84-619cd9247d28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "50091eba-db6b-4906-aa48-47e5006e80ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "D*DO?35*")
+		(path "/42d4b50c-50af-47b4-8a30-b43ef1247909")
+		(sheetname "/")
+		(sheetfile "corne-pcb_left.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start 0.25 -0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "0c37634d-a8c1-4c2b-9ddc-3a1fa93de822")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4e6f1fa0-fb26-49ac-9abc-97b64b16bbb7")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "7ec2990d-7252-4384-a917-0cd7acd91c9a")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "e5d32940-81ec-44d9-a315-87f72b0a6a35")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "9e9c731a-af36-4dd4-93af-05858cba00a6")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "f08ffe16-3012-42a0-bb56-f6235aae6f1a")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "12b1e46f-7c33-4ec8-b230-44bcd95bb58d")
+		)
+		(fp_line
+			(start 2.35 -1.15)
+			(end -2.35 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "e5b004fd-a2e9-4804-8c4d-b31eb8591b57")
+		)
+		(fp_line
+			(start 2.35 1.15)
+			(end 2.35 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "b81848a6-c7f0-406e-b1cf-f08de3ee133c")
+		)
+		(fp_line
+			(start -2.35 1.15)
+			(end -2.35 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "4ea5b315-e771-4b75-94a6-ad20922655c4")
+		)
+		(fp_line
+			(start -2.35 1.15)
+			(end 2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "B.CrtYd")
+			(uuid "5effddb3-9324-4612-9c4e-13977631c8da")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "70bd658c-5fb9-4544-8972-484c30108c2a")
+		)
+		(fp_line
+			(start -1.4 -0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "e4c10a1a-3d35-4ec3-9d27-3b56ecc2d992")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "5777f45c-12d6-45de-8811-a9100b7a46ee")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "2e4e4bc5-56bc-47cb-8c76-d61b450a7990")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "41df909f-043c-4344-b7d4-9e383b4a9909")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "70bc24b1-699f-435c-8b05-0f25838718e0")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "9c6bf74a-4e4b-4709-ad49-1531e5d181d0")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "2db16acf-3629-444b-84b0-88957dfbd153")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "3f0f1c19-18aa-4ef7-b8e8-9337b72cf968")
+		)
+		(fp_line
+			(start 1.4 0.9)
+			(end 1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "77e1a21b-e3e9-4a14-8f2e-14954aa4cb4b")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "8633afd6-18a6-4821-bb22-928d54e412e2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2 90)
+			(layer "B.Fab")
+			(uuid "0dd609a5-8047-442d-a3d8-ec47ce63084a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.65 0 90)
+			(size 0.9 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net 24 "Row 3")
+			(pinfunction "K")
+			(pintype "passive")
+			(uuid "4ba18853-5877-4e6d-8cef-eb371d4a88d4")
+		)
+		(pad "2" smd roundrect
+			(at 1.65 0 90)
+			(size 0.9 1.2)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net 35 "Net-(D22-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(uuid "aefe336f-29fd-469a-854d-9494bf00d64c")
+		)
+		(embedded_fonts no)
+		(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Components.3dshapes/Diode_SOD-123.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "ScottoKeebs_Components:Diode_SOD-123"
+		(layer "B.Cu")
 		(uuid "d969b1c8-3919-413a-91db-d1c50c1b3ce0")
 		(at 149.98 77.35 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D12"
+		(property "Reference" "D8"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -34032,7 +34670,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 16 "Net-(D12-A)")
+			(net 12 "Net-(D8-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "223450cd-7d37-4769-86a5-3a0ecb73c9bd")
@@ -34056,7 +34694,7 @@
 		(at 77.98 62.05 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -34389,7 +35027,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 5 "Net-(D2-A)")
+			(net 6 "Net-(D3-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "00b2c5b8-3305-46ee-8ffd-4517f02586ad")
@@ -34413,7 +35051,7 @@
 		(at 59.98 79.05 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D7"
+		(property "Reference" "D10"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -34746,7 +35384,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 11 "Net-(D7-A)")
+			(net 14 "Net-(D10-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ae839c4a-33bb-47e6-b0a2-9c1fbfaf3fb6")
@@ -34770,7 +35408,7 @@
 		(at 131.98 75.65 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 0 2 90)
 			(layer "B.SilkS")
 			(hide yes)
@@ -35103,7 +35741,7 @@
 			(size 0.9 1.2)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 15 "Net-(D11-A)")
+			(net 11 "Net-(D7-A)")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4dd5c8bb-1f22-478b-8e1f-4b144569e15c")
