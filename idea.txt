@@ -1,0 +1,29 @@
+		## 4 different possible keyboards with one split pcb design ##
+1. 6 column wireless
+2. 6 column wired
+3. 5 column wireless
+4. 5 column wired
+
+		# shared PCB components #
+	* switches
+	* smd diodes
+	* choc smd hotswap sockets
+	* pro micro footprint for mcu
+
+		# components for wired/wireless PCB #
+1. wireless
+	* nrf52840 mcu
+	* battery terminal
+	* battery
+	* power switch
+
+2. wireless
+	* pro micro mcu
+	* trrs connectors
+
+		# considerations for wired/wireless case #
+1. wireless
+	* power switch cutout
+
+2. wired
+	* trrs cutout

@@ -1,0 +1,211 @@
+INFO: kbplacer_plugin_action.py:70: Plugin version: 0.14
+INFO: kbplacer_plugin_action.py:71: Python version: '3.13.7 (main, Aug 15 2025, 12:34:02) [GCC 15.2.1 20250813]'
+INFO: kbplacer_plugin_action.py:72: KiCad version: 9.0.6 with 4.2.3 gtk3 (phoenix) wxWidgets 3.2.8
+INFO: kbplacer_dialog.py:631: Language: en
+INFO: kbplacer_plugin_action.py:80: GUI state: {"layout_path": "/home/jaymes/Downloads/keyboard-layout(2).json", "key_distance": [18.0, 17.0], "key_info": {"annotation_format": "S{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": true, "route_switches_with_diodes": false, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0}
+DEBUG: key_placer.py:424: Set key 1U distance: 18000000/17000000
+DEBUG: key_placer.py:141: Switches by nets: defaultdict(<class 'list'>, {frozenset({'Row 3', 'Column 1'}): ['S20'], frozenset({'Column 0', 'Row 3'}): ['S19'], frozenset({'Net-(BT1-+)', 'Net-(SW1-A)'}): ['SW1'], frozenset({'Row 3', 'Column 2'}): ['S21'], frozenset({'Column 5', 'Row 2'}): ['S18'], frozenset({'Column 4', 'Row 2'}): ['S17'], frozenset({'Column 3', 'Row 2'}): ['S16'], frozenset({'Column 2', 'Row 2'}): ['S15'], frozenset({'Column 1', 'Row 2'}): ['S14'], frozenset({'Column 0', 'Row 2'}): ['S13'], frozenset({'Column 5', 'Row 1'}): ['S12'], frozenset({'Row 1', 'Column 4'}): ['S11'], frozenset({'Column 3', 'Row 1'}): ['S10'], frozenset({'Row 1', 'Column 2'}): ['S9'], frozenset({'Column 1', 'Row 1'}): ['S8'], frozenset({'Column 0', 'Row 1'}): ['S7'], frozenset({'Column 5', 'Row 0'}): ['S6'], frozenset({'Row 0', 'Column 4'}): ['S5'], frozenset({'Column 3', 'Row 0'}): ['S4'], frozenset({'Row 0', 'Column 2'}): ['S3'], frozenset({'Column 1', 'Row 0'}): ['S2'], frozenset({'Column 0', 'Row 0'}): ['S1']})
+DEBUG: key_placer.py:145: Diodes by switch: {'S4': ['D4'], 'S21': ['D21'], 'S20': ['D20'], 'S19': ['D19'], 'S18': ['D18'], 'S17': ['D17'], 'S16': ['D16'], 'S15': ['D15'], 'S14': ['D14'], 'S13': ['D13'], 'S12': ['D12'], 'S11': ['D11'], 'S10': ['D10'], 'S9': ['D9'], 'S8': ['D8'], 'S7': ['D7'], 'S6': ['D6'], 'S5': ['D5'], 'S3': ['D3'], 'S2': ['D2'], 'S1': ['D1']}
+INFO: kle_serial.py:931: User layout: [[{'x': 11}, 'I'], [{'y': -0.8999999999999999, 'x': 10}, 'U', {'x': 1}, 'O'], [{'y': -0.9, 'x': 9}, 'Y'], [{'y': -0.9, 'x': 13}, 'P', 'Bksp'], [{'y': -0.30000000000000004, 'x': 11}, 'K'], [{'y': -0.8999999999999999, 'x': 10, 'n': True}, 'J', {'x': 1}, 'L'], [{'y': -0.8999999999999999, 'x': 9}, 'H'], [{'y': -0.8999999999999999, 'x': 13}, ':\n;', '"\n\''], [{'y': -0.2999999999999998, 'x': 11}, '<\n,'], [{'y': -0.8999999999999999, 'x': 10}, 'M', {'x': 1}, '>\n.'], [{'y': -0.8999999999999999, 'x': 9}, 'N'], [{'y': -0.8999999999999999, 'x': 13}, '?\n/', 'Enter'], [{'y': -0.20000000000000018, 'x': 10.5}, 'Alt'], [{'r': -30, 'rx': 9.6, 'ry': 4.3, 'y': -1.5, 'x': -1.0999999999999996, 'h': 1.5}, 'Shift'], [{'r': -15, 'rx': 10.5, 'ry': 4.1, 'y': -1, 'x': -1}, 'Raise']]
+DEBUG: key_placer.py:724: Layout offset: (27000000, 25500000)
+DEBUG: kle_serial.py:990: Layout with: x_ortholinear_keys=18, y_ortholinear_keys=3, rotated_keys=2, encoders=0, iso_enters=0 and unrecognized_shape_keys=0
+DEBUG: kle_serial.py:1015: Layout tagged: [<KeyboardTag.OTHER: 4>]
+WARNING: key_placer.py:741: Layout of this kind with missing key matrix annotations may produce unexpected footprint order. For details see: https://github.com/adamws/kicad-kbplacer/blob/master/docs/annotation_guide.md
+DEBUG: board_modifier.py:94: Setting S1 footprint position: (234000000, 34000000)
+DEBUG: board_modifier.py:94: Setting S2 footprint position: (216000000, 35700000)
+DEBUG: board_modifier.py:94: Setting S3 footprint position: (252000000, 35700000)
+DEBUG: board_modifier.py:94: Setting S4 footprint position: (198000000, 37400000)
+DEBUG: board_modifier.py:94: Setting S5 footprint position: (270000000, 39100000)
+DEBUG: board_modifier.py:94: Setting S6 footprint position: (288000000, 39100000)
+DEBUG: board_modifier.py:94: Setting S7 footprint position: (234000000, 51000000)
+DEBUG: board_modifier.py:94: Setting S8 footprint position: (216000000, 52700000)
+DEBUG: board_modifier.py:94: Setting S9 footprint position: (252000000, 52700000)
+DEBUG: board_modifier.py:94: Setting S10 footprint position: (198000000, 54400000)
+DEBUG: board_modifier.py:94: Setting S11 footprint position: (270000000, 56100000)
+DEBUG: board_modifier.py:94: Setting S12 footprint position: (288000000, 56100000)
+DEBUG: board_modifier.py:94: Setting S13 footprint position: (234000000, 68000000)
+DEBUG: board_modifier.py:94: Setting S14 footprint position: (216000000, 69700000)
+DEBUG: board_modifier.py:94: Setting S15 footprint position: (252000000, 69700000)
+DEBUG: board_modifier.py:94: Setting S16 footprint position: (198000000, 71400000)
+DEBUG: board_modifier.py:94: Setting S17 footprint position: (270000000, 73100000)
+DEBUG: board_modifier.py:94: Setting S18 footprint position: (288000000, 73100000)
+DEBUG: board_modifier.py:94: Setting S19 footprint position: (225000000, 86700000)
+DEBUG: board_modifier.py:94: Setting S20 footprint position: (189000000, 85850000)
+DEBUG: board_modifier.py:94: Setting S21 footprint position: (207000000, 86700000)
+INFO: key_placer.py:1078: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
+DEBUG: board_modifier.py:107: Getting S1 footprint position: (234000000, 34000000)
+DEBUG: board_modifier.py:94: Setting D1 footprint position: (239080000, 37030000)
+DEBUG: board_modifier.py:107: Getting S2 footprint position: (216000000, 35700000)
+DEBUG: board_modifier.py:94: Setting D2 footprint position: (221080000, 38730000)
+DEBUG: board_modifier.py:107: Getting S3 footprint position: (252000000, 35700000)
+DEBUG: board_modifier.py:94: Setting D3 footprint position: (257080000, 38730000)
+DEBUG: board_modifier.py:107: Getting S4 footprint position: (198000000, 37400000)
+DEBUG: board_modifier.py:94: Setting D4 footprint position: (203080000, 40430000)
+DEBUG: board_modifier.py:107: Getting S5 footprint position: (270000000, 39100000)
+DEBUG: board_modifier.py:94: Setting D5 footprint position: (275080000, 42130000)
+DEBUG: board_modifier.py:107: Getting S6 footprint position: (288000000, 39100000)
+DEBUG: board_modifier.py:94: Setting D6 footprint position: (293080000, 42130000)
+DEBUG: board_modifier.py:107: Getting S7 footprint position: (234000000, 51000000)
+DEBUG: board_modifier.py:94: Setting D7 footprint position: (239080000, 54030000)
+DEBUG: board_modifier.py:107: Getting S8 footprint position: (216000000, 52700000)
+DEBUG: board_modifier.py:94: Setting D8 footprint position: (221080000, 55730000)
+DEBUG: board_modifier.py:107: Getting S9 footprint position: (252000000, 52700000)
+DEBUG: board_modifier.py:94: Setting D9 footprint position: (257080000, 55730000)
+DEBUG: board_modifier.py:107: Getting S10 footprint position: (198000000, 54400000)
+DEBUG: board_modifier.py:94: Setting D10 footprint position: (203080000, 57430000)
+DEBUG: board_modifier.py:107: Getting S11 footprint position: (270000000, 56100000)
+DEBUG: board_modifier.py:94: Setting D11 footprint position: (275080000, 59130000)
+DEBUG: board_modifier.py:107: Getting S12 footprint position: (288000000, 56100000)
+DEBUG: board_modifier.py:94: Setting D12 footprint position: (293080000, 59130000)
+DEBUG: board_modifier.py:107: Getting S13 footprint position: (234000000, 68000000)
+DEBUG: board_modifier.py:94: Setting D13 footprint position: (239080000, 71030000)
+DEBUG: board_modifier.py:107: Getting S14 footprint position: (216000000, 69700000)
+DEBUG: board_modifier.py:94: Setting D14 footprint position: (221080000, 72730000)
+DEBUG: board_modifier.py:107: Getting S15 footprint position: (252000000, 69700000)
+DEBUG: board_modifier.py:94: Setting D15 footprint position: (257080000, 72730000)
+DEBUG: board_modifier.py:107: Getting S16 footprint position: (198000000, 71400000)
+DEBUG: board_modifier.py:94: Setting D16 footprint position: (203080000, 74430000)
+DEBUG: board_modifier.py:107: Getting S17 footprint position: (270000000, 73100000)
+DEBUG: board_modifier.py:94: Setting D17 footprint position: (275080000, 76130000)
+DEBUG: board_modifier.py:107: Getting S18 footprint position: (288000000, 73100000)
+DEBUG: board_modifier.py:94: Setting D18 footprint position: (293080000, 76130000)
+DEBUG: board_modifier.py:107: Getting S19 footprint position: (225000000, 86700000)
+DEBUG: board_modifier.py:94: Setting D19 footprint position: (230080000, 89730000)
+DEBUG: board_modifier.py:107: Getting S20 footprint position: (184071926, 92958176)
+DEBUG: board_modifier.py:94: Setting D20 footprint position: (189986335, 93042232)
+DEBUG: board_modifier.py:107: Getting D20 footprint position: (189986335, 93042232)
+DEBUG: board_modifier.py:107: Getting S21 footprint position: (205106706, 89319002)
+DEBUG: board_modifier.py:94: Setting D21 footprint position: (210797830, 90930956)
+DEBUG: board_modifier.py:107: Getting D21 footprint position: (210797830, 90930956)
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (68975000, 123790000)
+DEBUG: key_placer.py:826: Optimizing orientation of S1 diodes
+DEBUG: board_modifier.py:107: Getting D1 footprint position: (239080000, 37030000)
+DEBUG: key_placer.py:826: Optimizing orientation of S2 diodes
+DEBUG: board_modifier.py:107: Getting D2 footprint position: (221080000, 38730000)
+DEBUG: key_placer.py:826: Optimizing orientation of S3 diodes
+DEBUG: board_modifier.py:107: Getting D3 footprint position: (257080000, 38730000)
+DEBUG: key_placer.py:826: Optimizing orientation of S4 diodes
+DEBUG: board_modifier.py:107: Getting D4 footprint position: (203080000, 40430000)
+DEBUG: key_placer.py:826: Optimizing orientation of S5 diodes
+DEBUG: board_modifier.py:107: Getting D5 footprint position: (275080000, 42130000)
+DEBUG: key_placer.py:826: Optimizing orientation of S6 diodes
+DEBUG: board_modifier.py:107: Getting D6 footprint position: (293080000, 42130000)
+DEBUG: key_placer.py:826: Optimizing orientation of S7 diodes
+DEBUG: board_modifier.py:107: Getting D7 footprint position: (239080000, 54030000)
+DEBUG: key_placer.py:826: Optimizing orientation of S8 diodes
+DEBUG: board_modifier.py:107: Getting D8 footprint position: (221080000, 55730000)
+DEBUG: key_placer.py:826: Optimizing orientation of S9 diodes
+DEBUG: board_modifier.py:107: Getting D9 footprint position: (257080000, 55730000)
+DEBUG: key_placer.py:826: Optimizing orientation of S10 diodes
+DEBUG: board_modifier.py:107: Getting D10 footprint position: (203080000, 57430000)
+DEBUG: key_placer.py:826: Optimizing orientation of S11 diodes
+DEBUG: board_modifier.py:107: Getting D11 footprint position: (275080000, 59130000)
+DEBUG: key_placer.py:826: Optimizing orientation of S12 diodes
+DEBUG: board_modifier.py:107: Getting D12 footprint position: (293080000, 59130000)
+DEBUG: key_placer.py:826: Optimizing orientation of S13 diodes
+DEBUG: board_modifier.py:107: Getting D13 footprint position: (239080000, 71030000)
+DEBUG: key_placer.py:826: Optimizing orientation of S14 diodes
+DEBUG: board_modifier.py:107: Getting D14 footprint position: (221080000, 72730000)
+DEBUG: key_placer.py:826: Optimizing orientation of S15 diodes
+DEBUG: board_modifier.py:107: Getting D15 footprint position: (257080000, 72730000)
+DEBUG: key_placer.py:826: Optimizing orientation of S16 diodes
+DEBUG: board_modifier.py:107: Getting D16 footprint position: (203080000, 74430000)
+DEBUG: key_placer.py:826: Optimizing orientation of S17 diodes
+DEBUG: board_modifier.py:107: Getting D17 footprint position: (275080000, 76130000)
+DEBUG: key_placer.py:826: Optimizing orientation of S18 diodes
+DEBUG: board_modifier.py:107: Getting D18 footprint position: (293080000, 76130000)
+DEBUG: key_placer.py:826: Optimizing orientation of S19 diodes
+DEBUG: board_modifier.py:107: Getting D19 footprint position: (230080000, 89730000)
+DEBUG: key_placer.py:826: Optimizing orientation of S20 diodes
+DEBUG: board_modifier.py:107: Getting D20 footprint position: (189986335, 93042232)
+DEBUG: key_placer.py:826: Optimizing orientation of S21 diodes
+DEBUG: board_modifier.py:107: Getting D21 footprint position: (210797830, 90930956)
+DEBUG: key_placer.py:826: Optimizing orientation of SW1 diodes
+DEBUG: key_placer.py:854: Placing additional elements for S20
+DEBUG: board_modifier.py:107: Getting S20 footprint position: (184071926, 92958176)
+DEBUG: board_modifier.py:84: Searching for optional ST20 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S19
+DEBUG: board_modifier.py:107: Getting S19 footprint position: (225000000, 86700000)
+DEBUG: board_modifier.py:84: Searching for optional ST19 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for SW1
+DEBUG: board_modifier.py:107: Getting SW1 footprint position: (68975000, 123790000)
+DEBUG: board_modifier.py:84: Searching for optional STW1 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S21
+DEBUG: board_modifier.py:107: Getting S21 footprint position: (205106706, 89319002)
+DEBUG: board_modifier.py:84: Searching for optional ST21 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S18
+DEBUG: board_modifier.py:107: Getting S18 footprint position: (288000000, 73100000)
+DEBUG: board_modifier.py:84: Searching for optional ST18 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S17
+DEBUG: board_modifier.py:107: Getting S17 footprint position: (270000000, 73100000)
+DEBUG: board_modifier.py:84: Searching for optional ST17 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S16
+DEBUG: board_modifier.py:107: Getting S16 footprint position: (198000000, 71400000)
+DEBUG: board_modifier.py:84: Searching for optional ST16 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S15
+DEBUG: board_modifier.py:107: Getting S15 footprint position: (252000000, 69700000)
+DEBUG: board_modifier.py:84: Searching for optional ST15 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S14
+DEBUG: board_modifier.py:107: Getting S14 footprint position: (216000000, 69700000)
+DEBUG: board_modifier.py:84: Searching for optional ST14 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S13
+DEBUG: board_modifier.py:107: Getting S13 footprint position: (234000000, 68000000)
+DEBUG: board_modifier.py:84: Searching for optional ST13 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S12
+DEBUG: board_modifier.py:107: Getting S12 footprint position: (288000000, 56100000)
+DEBUG: board_modifier.py:84: Searching for optional ST12 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S11
+DEBUG: board_modifier.py:107: Getting S11 footprint position: (270000000, 56100000)
+DEBUG: board_modifier.py:84: Searching for optional ST11 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S10
+DEBUG: board_modifier.py:107: Getting S10 footprint position: (198000000, 54400000)
+DEBUG: board_modifier.py:84: Searching for optional ST10 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S9
+DEBUG: board_modifier.py:107: Getting S9 footprint position: (252000000, 52700000)
+DEBUG: board_modifier.py:84: Searching for optional ST9 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S8
+DEBUG: board_modifier.py:107: Getting S8 footprint position: (216000000, 52700000)
+DEBUG: board_modifier.py:84: Searching for optional ST8 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S7
+DEBUG: board_modifier.py:107: Getting S7 footprint position: (234000000, 51000000)
+DEBUG: board_modifier.py:84: Searching for optional ST7 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S6
+DEBUG: board_modifier.py:107: Getting S6 footprint position: (288000000, 39100000)
+DEBUG: board_modifier.py:84: Searching for optional ST6 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S5
+DEBUG: board_modifier.py:107: Getting S5 footprint position: (270000000, 39100000)
+DEBUG: board_modifier.py:84: Searching for optional ST5 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S4
+DEBUG: board_modifier.py:107: Getting S4 footprint position: (198000000, 37400000)
+DEBUG: board_modifier.py:84: Searching for optional ST4 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S3
+DEBUG: board_modifier.py:107: Getting S3 footprint position: (252000000, 35700000)
+DEBUG: board_modifier.py:84: Searching for optional ST3 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S2
+DEBUG: board_modifier.py:107: Getting S2 footprint position: (216000000, 35700000)
+DEBUG: board_modifier.py:84: Searching for optional ST2 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
+DEBUG: key_placer.py:854: Placing additional elements for S1
+DEBUG: board_modifier.py:107: Getting S1 footprint position: (234000000, 34000000)
+DEBUG: board_modifier.py:84: Searching for optional ST1 footprint in /home/jaymes/Documents/projects/keyboards/corne-pcb/corne-pcb_right/corne-pcb_right.kicad_pcb
+DEBUG: board_modifier.py:89: Footprint not found
